@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Midias HTML5</title>
+</head>
+<body>
+    <h1>Imagem Dinâmica</h1>
+    <p>Abaixo tem uma imagem que se adapta dependendo da LARGURA da tela que estiver navegando por ele.</p>
+    <picture>
+        <source media="(max-width:750px )" srcset="Imagens/imagem-p.png">
+        <source media="(max-width:1050px )" srcset="Imagens/imagem-m.png">
+        <img src="Imagens/imagem-g.png" alt="Uma imagem grande">
+    </picture>
+    <h1>Audio</h1>
+    <p>Abaixo temos um podcast do professor Gustavo Guanabara.</p>
+    <audio src="midia/guanacast-33.mp3" controls></audio>
+</body>
+</html>

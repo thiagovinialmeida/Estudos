@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grouping Tags</title>
+    <style>
+        header{
+            background-color: #998799;
+            padding: 5px;
+   
+            height: 50px;
+        }
+      
+        body{
+            background-color: #d8bfd8;
+            margin: 0px;
+        }
+        h1, h4, nav{
+            display: inline-block;
+            margin: 0px;
+        }
+
+        #navegacao{
+            margin-left: 908px;
+        }
+
+        nav > a{
+            padding: 5px;
+            text-decoration: none;
+            color: #d4b6d4;
+        }
+
+        nav > a:hover{
+            text-decoration: underline;
+            color: #be7bfd;
+        }
+
+        #principal{
+            text-align: center;
+            color: #d4b6d4;
+            text-shadow: 3px 3px 5px rgba(0, 0, 0, 0.445);
+        }
+
+        h1{
+            font-family: 'Times New Roman', Times, serif;
+            font-size: 3em;
+            text-align: center;
+        }
+        
+        section{
+            background-color: white;
+            margin: 20px 100px 100px 100px;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.233);
+        }
+
+        section > img{
+            display: block;
+            padding: 15px;
+        }
+
+        article > p{
+            font-family: Arial, Helvetica, sans-serif;
+            text-align: justify;
+            text-indent: 30px;
+            font-size: 1.2em;
+        }
+
+        span{
+            color: #be7bfd;
+        }
+
+        #rodape{
+            background-color: #998799;
+            padding: 5px;
+            margin: auto;
+            height: 50px;
+        
+        }
+
+        #contato{
+            margin-left: 908px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1 id="principal">Meu Site</h1>
+        <nav id="navegacao">
+            <a href="#">link</a>
+            <a href="#">link</a>
+            <a href="#">link</a>
+            <a href="#">link</a>
+            <a href="#">link</a>
+        </nav>
+    </header>
+    <main>
+        <section>
+            <h1>Portifólio</h1>
+            <img src="Minha imagem150.png" alt="Imagem Instagram">
+            <article>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Fugiat magni laudantium tenetur vitae repellat in. Officiis aut assumenda pariatur placeat eaque quo fugit excepturi blanditiis maiores, veritatis distinctio, ratione porro? Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci assumenda explicabo sapiente odio? Earum, ea? Voluptate, labore exercitationem ipsam alias at molestias a nemo perspiciatis quas eum, aspernatur nulla omnis.</p>
+            </article>
+            <aside>
+                <p>Por: <span>Thiago Vinicius Santos almeida</span></p>
+            </aside>
+        </section>
+    </main>
+    <footer id="rodape">
+        <h4>Contatos:</h4>
+        <nav id="contato">
+            <a href="#">Whatsapp</a>
+            <a href="#">Twitter</a>
+            <a href="#">Instagram</a>
+            <a href="#">LinkedIn</a>
+        </nav>
+    </footer>
+</body>
+</html>
