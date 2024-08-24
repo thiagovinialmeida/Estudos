@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cadastro aluno</title>
+</head>
+<body>
+    <h1>Teste de formulario</h1>
+    <form action="cadastro.php" method="get">
+        <p> <label for="inome">Nome:</label>
+            <input type="text" name="nome" id="inome" placeholder="Nome Completo">
+        </p>
+        <p>
+            <label for="inum">Número de id</label>
+            <input type="number" name="num" id="inum" placeholder="Cadeirinha do Estudante">
+        </p>
+        <p> <label for="iemail">Email</label>
+            <input type="email" name="email" id="iemail" placeholder="Email valido">
+        </p>
+        <p>
+            <label for="itelefone">Número de Celular</label>
+            <input type="tel" value="+55">
+        </p>
+        <p>
+            <label for="imedia">Média</label>
+            <input type="number" name="media" id="imedia" min="1" max="10" size="2" value="1">
+        </p>
+        <p>
+            <label for="idata">Data da prova:</label>
+            <input type="date" name="data" id="idata"> <input type="time" name="data" id="idata">
+        </p>
+        <p>
+            <input type="submit"> <input type="reset">
+        </p>
+    </form>
+</body>
+</html>
