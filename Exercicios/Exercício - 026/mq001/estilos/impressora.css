@@ -1,0 +1,42 @@
+@charset "UTF-8";
+
+/* Estilos para impressão */
+
+*{
+    margin: 15px;
+    padding: 15px;
+}
+
+html{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 1.5em;
+    text-align: justify;
+}
+
+h1{
+    text-align: center;
+    font-size: 3em;
+    font-family: 'Times New Roman', Times, serif;
+    height: 50px;
+    padding-top: 30px;
+}
+
+menu{
+    display: none;
+}
+
+h2{
+    text-align: center;
+    font-size: 2em;
+}
+
+p{
+    text-indent: 40px;
+    padding: 10px;
+}
+
+article::after{
+    content: 'Impressão retirada do site: www.mediaquery.com';
+    font-weight: bold;
+}
+
