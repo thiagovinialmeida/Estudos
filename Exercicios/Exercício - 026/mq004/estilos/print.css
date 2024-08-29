@@ -1,0 +1,23 @@
+@charset "UTF-8";
+
+@media print {
+    body{
+        background-image: url('../imagens/back-print.jpg');
+    }
+
+    main{
+        border: 2px solid black;
+    }
+
+    h1{
+        color: black;
+        text-shadow: none;
+        padding: 10px;
+    }
+
+    img#cell {display: none;}
+    img#tablet {display: none;}
+    img#imp {display: block;}
+    img#pc {display: none;}
+    img#tv {display: none;}
+}
