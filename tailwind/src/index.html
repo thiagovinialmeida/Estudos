@@ -3,10 +3,61 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Tailwind Teste</title>
+    <title>Teste Tailwind</title>
     <link href="./output.css" rel="stylesheet">
 </head>
 <body>
-    <h1 class="text-3xl font-bold underline">Hello World!</h1>
+        <main class="h-screen w-screen grid grid-cols-2 grid-rowls-6">
+
+            <!--Imagem-->
+            <div class="row-span-5 flex justify-end">
+                <img src="imagens/insta-img.png" class="w-96">
+            </div>
+
+            <!--Form-->
+            <div class="row-span-5 flex flex-col justify-center items-center">
+                <form action="form.php" class="w-80 flex flex-col justify-center items-center border px-10 py-4 gap-5">
+                    <img src="imagens/insta-logo.png" class="w-52">
+                    <input class="bg-slate-50 h-9 w-full pl-3 border rounded-md" type="email" name="email" id="iemail" placeholder="email">
+                    <input class="bg-slate-50 h-9 w-full pl-3 border rounded-md" type="password" placeholder="Senha">
+                    <button class="bg-blue-500 w-full rounded-lg h-8 text-slate-50 hover:bg-blue-300">Entrar</button>
+
+                    <a href="#" class="text-blue-800 font-bold cursor pointer hover:text-blue-300">Entrar com o Facebook</a>
+                    <a href="#" class="text-blue-800 text-sm cursor pointer hover:text-blue-300">Esqueceu a senha?</a>
+                </form>
+
+                <div class="border w-80 p-5 text-center mt-2">
+                    <p>Não tem uma conta? <a href="#" class="text-blue-800">Cadastre-se</a></p>
+                </div>
+
+                <p class="w-80 text-center mt-9">Baixe o Aplicativo</p>
+
+                <div class="w-80">
+                    <img src="imagens/apple.png" class="h-10 inline">
+                    <img src="imagens/google.png" class="h-10 inline">
+                </div>
+            </div>
+        </main>
+        <footer class="row-span-1 col-span-2">
+            <ul>
+                <li>Meta</li>
+                <li>Sobre</li>
+                <li>Blog</li>
+                <li>Carreiras</li>
+                <li>Ajuda</li>
+                <li>API</li>
+                <li>Privacidade</li>
+                <li>Termos</li>
+                <li>Localizações</li>
+                <li>Instagram Lite</li>
+                <li>Threads</li>
+                <li>Carregamento de contatos e não usuários</li>
+                <li>Meta Verified</li>
+            </ul>
+            <div>
+                <p>Português (Brasil)</p>
+                <p>2024 Instagram from Th</p>
+            </div>
+        </footer>
 </body>
 </html>
